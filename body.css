@@ -1,0 +1,111 @@
+.body {
+    background-image: linear-gradient( to right, #363941 , #0a0b0c)
+}
+
+.body {
+    width: 100%;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+/* Left Column Styles */
+
+.body > .left {
+    margin: 75px 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body > .left > .text {
+    font-size: 45px;
+}
+
+.body > .left > .other-text {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.learn-more button{
+    background-color: #111111;
+    color: #faffff;
+    border: none;
+}
+.body > .left > .free-sign-up {
+    padding: 15px 10px;
+}
+
+
+
+.body > .left > .free-sign-up button {
+    background-color: #4bce79;
+    color: #000412;
+    font-size: 25px;
+    border: #4bce79 solid;
+    border-radius: 3px;
+    height: 60px;
+    width: auto;
+}
+
+.body > .left > .free-sign-up > .learn-more button {
+    background-color: #111111;
+    color: white;
+    border: #111111 solid ;
+}
+
+.body > .left > .text > .Word {
+    font-weight: 900;
+}
+
+/* Right Column Styles */
+
+.body > .right > .image img {
+    padding-top: 5px;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+}
+
+
+.body > .right > .image > .sentence {
+    color: white;
+    padding-left: 200px;
+    padding-top: 5px;
+}
+
+/* Footer */
+
+ .footer-wrapper > .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+
+.footer-wrapper > .link-wrapper > .type button {
+    width: 396px;
+    height: 75px;
+    background-color: #36383f;
+    border: #494a4b solid;
+    border-width: 5px;
+    color: #faffff;
+    font-size: 30px;
+}
+
+.Bold {
+    font-weight: bolder;
+    border-right: #494a4b;
+    font-size: 35px;
+}
+
+
+.filler-wrapper {
+    height: 50px;
+    background-color: #191a1d;
+}
